@@ -5,10 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: ["app", "localhost"]
-  },
-  test: {
-    globals: true,
-    environment: "jsdom"
+    allowedHosts: ['app', 'localhost']
   }
 })
