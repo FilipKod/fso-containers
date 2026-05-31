@@ -18,7 +18,7 @@ let redisClient;
   await redisClient.set("added_todos_counter", 0)
 })()
 
-/* GET todos listing. */
+/* GET todos listings. */
 router.get('/', async (_, res) => {
   const todos = await Todo.find({})
   res.send(todos);
