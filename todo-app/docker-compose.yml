@@ -5,7 +5,7 @@ services:
       context: ./todo-frontend
       dockerfile: Dockerfile
 
-  server:
+  backend:
     image: todo-backend-prod
     build:
       context: ./todo-backend
