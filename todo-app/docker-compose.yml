@@ -41,7 +41,7 @@ services:
       - 8080:80
     depends_on:
       - app
-      - server
+      - backend
 
 volumes:
   mongo_data:
