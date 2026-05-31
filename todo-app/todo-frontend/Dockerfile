@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-ENV VITE_BACKEND_URL=http://localhost/api
+ENV VITE_BACKEND_URL=http://localhost:8080/api
 
 RUN npm run build
 
